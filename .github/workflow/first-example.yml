@@ -12,9 +12,9 @@ jobs:
         - name: list files
           run: ls
         
-        -name: read file
-         run: cat README.md
+        - name: read file
+          run: cat README.md
 
-        -name: read file2
-         run: cat README.md
+        - name: read file2
+          run: cat README.md
 
